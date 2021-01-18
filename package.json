@@ -8,8 +8,9 @@
     "build/**/*"
   ],
   "scripts": {
-    "start": "yarn clean && tsc",
-    "clean": "del ./build/*"
+    "build": "yarn clean && tsc",
+    "clean": "del ./build/*",
+    "pub": "git add . && git commit -m \"Package updated\" && git push && npm publish"
   },
   "author": "Akshar Mistry",
   "license": "MIT",
