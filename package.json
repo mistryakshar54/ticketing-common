@@ -1,13 +1,13 @@
 {
   "name": "@amdevcorp/ticketing-common",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "\"A package containing common scenarios like error handling, api routing etc.for ticketing ms poj\"",
-  "main": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "main": "./build/src/index.js",
+  "types": "./build/src/index.d.ts",
   "files": [
     "build/**/*"
   ],
-  "typings": "./build/index.d.ts",
+  "typings": "./build/src/index.d.ts",
   "scripts": {
     "build": "yarn clean && tsc",
     "clean": "del ./build/*",
