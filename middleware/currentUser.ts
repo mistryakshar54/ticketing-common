@@ -12,7 +12,7 @@ declare global{
             currentUser? : UserPayload;
             session : {
                 jwt : string
-            }
+            } | null
         }
     }
 }
