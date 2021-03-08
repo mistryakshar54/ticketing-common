@@ -1,6 +1,6 @@
 {
   "name": "@amdevcorp/ticketing-common",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "\"A package containing common scenarios like error handling, api routing etc.for ticketing ms poj\"",
   "main": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
@@ -23,6 +23,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.9.2",
     "jsonwebtoken": "^8.5.1",
+    "node-nats-streaming": "^0.3.2",
     "typescript": "^4.1.3"
   }
 }

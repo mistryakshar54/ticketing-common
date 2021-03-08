@@ -10,3 +10,7 @@ export * from '../middleware/errorHandler';
 export * from '../middleware/validationHandler';
 export * from '../middleware/currentUser';
 export * from '../middleware/requireAuth';
+
+export * from '../events/subjects';
+export * from '../events/ticket-created-listner';
+export * from '../events/ticket-created-publisher';
