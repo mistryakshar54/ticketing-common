@@ -12,5 +12,7 @@ export * from '../middleware/currentUser';
 export * from '../middleware/requireAuth';
 
 export * from '../events/subjects';
-export * from '../events/ticket-created-listner';
-export * from '../events/ticket-created-publisher';
+export * from '../../tickets/src/events/ticket-created-listner';
+export * from '../../tickets/src/events/ticket-created-publisher';
+export * from '../events/base-publisher';
+export * from '../events/base-listner';
