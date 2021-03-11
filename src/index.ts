@@ -14,3 +14,5 @@ export * from '../middleware/requireAuth';
 export * from '../events/subjects';
 export * from '../events/base-publisher';
 export * from '../events/base-listner';
+
+export * from '../events/types';
