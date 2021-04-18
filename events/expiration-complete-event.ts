@@ -1,6 +1,6 @@
 import { Subjects } from "./subjects";
 
-export interface ExiprationComplete {
+export interface ExiprationCompleteEvent {
     subject : Subjects.ExiprationComplete;
     data : {
         orderId : string;
